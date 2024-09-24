@@ -14,4 +14,6 @@
     reader.readAsDataURL(file);
   });
 
-  
+  function Printed(){
+    print();
+  }

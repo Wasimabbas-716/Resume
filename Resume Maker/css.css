@@ -135,9 +135,30 @@ transition: 0.5s;
       color: yellow;
     }
 
+    .btn{
+      background-color: rgb(115, 208, 245);
+      padding: 15px;
+      width: 40%;
+      border: none;
+      border-radius: 15px;
+      position: relative;
+      left: 50%;
+      transform: translate(-50%);
+      margin-top: 20px;
+      font-weight: bolder;
+transition: 0.5s;
+    }
+    .btn:hover{
+      background-color: rgb(19, 69, 53);
+      color: white;
+    }
+
     @media print {
       body{
         background-color: bisque;
        
+      }
+      .btn{
+        display: none;
       }
     }
